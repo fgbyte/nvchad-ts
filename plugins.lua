@@ -50,12 +50,12 @@ local plugins = {
     "williamboman/mason.nvim",
     opts = {
       ensure_installed = {
-        -- "eslint-lsp",
+        "eslint-lsp",
         "js-debug-adapter",
-        -- "prettier",
-        -- "typescript-language-server",
-        -- "astro-language-server",
-        -- "tailwindcss-language-server",
+        "prettier",
+        "typescript-language-server",
+        "astro-language-server",
+        "tailwindcss-language-server",
       }
     }
   },
