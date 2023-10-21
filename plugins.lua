@@ -65,6 +65,23 @@ local plugins = {
       require "plugins.configs.lspconfig"
       require "custom.configs.lspconfig"
     end,
+    --tailwindcss
+      opts = {
+       servers = {
+          tailwindcss = {},
+      },
+    },
+  },
+  --tailwindcss color
+  {
+    "NvChad/nvim-colorizer.lua",
+    config = function ()
+      require("colorizer").setup({
+        user_default_options = {
+          tailwind = true,
+        },
+      })
+    end,
   },
 }
 return plugins
