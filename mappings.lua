@@ -10,7 +10,11 @@ M.dap = {
     ["<leader>dr"] = {
       "<cmd> DapContinue <CR>",
       "Run or continue the debugger"
-    }
+    },
+    ["<leader>tt"] = {
+        "<cmd> Trouble <CR>",
+        "Open Trouble Toggle"
+    },
   },
 }
 
