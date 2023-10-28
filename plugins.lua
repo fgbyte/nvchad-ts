@@ -91,5 +91,13 @@ local plugins = {
       require("custom.configs.trouble")
     end,
   },
+
+  --contraer texto
+   {
+    "tmhedberg/SimpylFold",
+    config = function()
+      -- Aquí puedes agregar cualquier configuración adicional para el plugin
+    end,
+  },
 }
 return plugins
